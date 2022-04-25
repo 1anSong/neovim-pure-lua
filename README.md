@@ -1,6 +1,7 @@
 # neovim configuration file
 
 ## file structure overviwe
+```
 .
 ├── 1
 ├── init.lua
@@ -27,5 +28,6 @@
 ├── plugin
 │   └── packer_compiled.lua
 └── README
+```
 
 5 directories, 20 files
