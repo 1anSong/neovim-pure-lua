@@ -19,7 +19,8 @@ packer.startup({
     ------
     ------lsp
     ------
-    use{'neovim/nvim-lspconfig','williamboman/nvim-lsp-installer'}
+    use'neovim/nvim-lspconfig'
+    --use'williamboman/nvim-lsp-installer'
     use"hrsh7th/nvim-cmp"
     use"hrsh7th/vim-vsnip"
     use"hrsh7th/cmp-vsnip"

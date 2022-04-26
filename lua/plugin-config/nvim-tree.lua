@@ -1,6 +1,6 @@
 local status, nvim_tree = pcall(require, "nvim-tree")
 if not status then
-    vim.notify("没有找到 nvim-tree")
+    vim.notify("nvim-tree not found")
   return
 end
 
@@ -44,14 +44,14 @@ nvim_tree.setup({
             -- 首次打开大小适配
             resize_window = true,
             -- 打开文件时关闭
-            quit_on_open = false,
+            quit_on_open = true,
         },
     },
     -- wsl install -g wsl-open
     -- https://github.com/4U6U57/wsl-open/
-    system_open = {
-        cmd = 'xdg-open', -- mac 直接设置为 open
-    },
+    -- system_open = {
+    --    cmd = 'xdg-open', -- mac 直接设置为 open
+    --},
 })
 -- 自动关闭
 vim.cmd([[

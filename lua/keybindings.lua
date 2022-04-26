@@ -10,7 +10,7 @@ map("n", "sc", "<C-w>c", opt)
 --关闭其他window
 map("n", "so", "<C-w>o", opt)
 -- 左右控制比例
-map("n","<C-Left>",":vertical reszie -2 <CR>",opt)
+map("n","<C-Left>",":vertical reszie -2<CR>",opt)
 map("n", "<C-Right>", ":vertical resize +2<CR>", opt)
 map("n", "s,", ":vertical resize -20<CR>", opt)
 map("n", "s.", ":vertical resize +20<CR>", opt)
@@ -33,8 +33,6 @@ map("n", "<leader>bch", ":BufferLineCloseLeft<CR>", opt)
 map("n", "<leader>bc", ":BufferLinePickClose<CR>", opt)
 
 
-
-
 ----------------------------------------------------------------------------
 -------------------------------pluginKeys-----------------------------------
 ----------------------------------------------------------------------------
@@ -53,15 +51,6 @@ pluginKeys.nvimTreeList = {
   -- 显示隐藏文件
   { key = "i", action = "toggle_ignored" }, -- Ignore (node_modules)
   { key = ".", action = "toggle_dotfiles" }, -- Hide (dotfiles)
-  -- 文件操作
-  { key = "<F5>", action = "refresh" },
-  { key = "a", action = "create" },
-  { key = "d", action = "remove" },
-  { key = "r", action = "rename" },
-  { key = "x", action = "cut" },
-  { key = "c", action = "copy" },
-  { key = "p", action = "paste" },
-  { key = "s", action = "system_open" },
 }
 --------------------------------------------------------------------------------------
 pluginKeys.map_lsp = function(mapbuf)
