@@ -3,7 +3,7 @@
 ## Dependencies
 - [ccls](https://github.com/MaskRay/ccls)
 - [pyright](https://github.com/microsoft/pyright)
-- [ccls](https://github.com/sumneko/lua-language-serverk)
+- [lua-language-serverk](https://github.com/sumneko/lua-language-serverk)
 
 
 ## File structure overviwe
