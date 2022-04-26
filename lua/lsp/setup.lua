@@ -1,6 +1,7 @@
 local lsp_installer = require("nvim-lsp-installer")
 require('lsp.config.ccls')
 require('lsp.config.pyright')
+require('lsp.config.markdown')
 --sumneko_lua = require("lsp.config.lua"), -- lua/lsp/config/lua.lua
 
 --local servers = {
