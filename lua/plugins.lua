@@ -19,8 +19,8 @@ packer.startup({
     ------
     ------lsp
     ------
-    use{'---neovim/nvim-lspconfig','williamboman/nvim-lsp-installer'}
-    use"h---rsh7th/nvim-cmp"
+    use{'neovim/nvim-lspconfig','williamboman/nvim-lsp-installer'}
+    use"hrsh7th/nvim-cmp"
     use"hrsh7th/vim-vsnip"
     use"hrsh7th/cmp-vsnip"
     use"hrsh7th/cmp-nvim-lsp" -- { name = nvim_lsp }
@@ -36,7 +36,8 @@ packer.startup({
     -------
     ------- Editor Enhancement
     -------
-    use'tpope/vim-surroud'
+    use 'tpope/vim-surround'
+    use 'jiangmiao/auto-pairs'
 
     --------------------------------------Plugin end----------------------------------------------
 end,
