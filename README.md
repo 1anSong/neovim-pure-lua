@@ -1,9 +1,14 @@
-# neovim configuration file
+# Neovim configuration file
 
-## file structure overviwe
+## Dependencies
+- [ccls](https://github.com/MaskRay/ccls)
+- [pyright](https://github.com/microsoft/pyright)
+- [ccls](https://github.com/sumneko/lua-language-serverk)
+
+
+## File structure overviwe
 ```
 .
-├── 1
 ├── init.lua
 ├── init.vim.bak
 ├── lua
@@ -30,4 +35,4 @@
 └── README
 ```
 
-5 directories, 20 files
+

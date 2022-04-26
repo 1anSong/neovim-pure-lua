@@ -109,10 +109,15 @@ _G.packer_plugins = {
     path = "/home/xcsong/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
-  ["gruvbox.nvim"] = {
+  fzf = {
     loaded = true,
-    path = "/home/xcsong/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
-    url = "https://github.com/ellisonleao/gruvbox.nvim"
+    path = "/home/xcsong/.local/share/nvim/site/pack/packer/start/fzf",
+    url = "https://github.com/junegunn/fzf"
+  },
+  ["fzf.vim"] = {
+    loaded = true,
+    path = "/home/xcsong/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    url = "https://github.com/junegunn/fzf.vim"
   },
   ["lualine-lsp-progress"] = {
     loaded = true,
@@ -159,10 +164,10 @@ _G.packer_plugins = {
     path = "/home/xcsong/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
-  ["solarized.nvim"] = {
+  ["tokyonight.nvim"] = {
     loaded = true,
-    path = "/home/xcsong/.local/share/nvim/site/pack/packer/start/solarized.nvim",
-    url = "https://github.com/shaunsingh/solarized.nvim"
+    path = "/home/xcsong/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-bbye"] = {
     loaded = true,
