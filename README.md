@@ -4,6 +4,10 @@
 - [ccls](https://github.com/MaskRay/ccls)
 - [pyright](https://github.com/microsoft/pyright)
 - [lua-language-serverk](https://github.com/sumneko/lua-language-serverk)
+- [fzf](https://github.com/junegunn/fzf#using-git)
+
+## Notices
+- if you linux distribution is debian/ubuntu,please do NOT install fzf  through package manager
 
 
 ## File structure overviwe
