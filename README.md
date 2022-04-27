@@ -7,7 +7,7 @@
 - [fzf](https://github.com/junegunn/fzf#using-git)
 
 ## Notices
-- if you linux distribution is debian/ubuntu,please do NOT install fzf  through package manager
+- if your linux distribution is debian/ubuntu,please do **NOT**  install fzf  through package manager
 
 
 ## File structure overviwe
