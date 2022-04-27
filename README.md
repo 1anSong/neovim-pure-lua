@@ -10,7 +10,7 @@
 - if your linux distribution is debian/ubuntu,please do **NOT**  install fzf  through package manager
 
 
-## File structure overviwe
+## File structure overview
 ```
 .
 ├── init.lua
