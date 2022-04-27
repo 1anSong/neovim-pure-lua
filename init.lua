@@ -12,7 +12,3 @@ require'plugin-config.dashboard'
 require'lsp.setup'
 require'lsp.cmp'
 require'lsp.ui'
-
-
-
-

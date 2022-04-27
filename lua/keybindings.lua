@@ -1,6 +1,9 @@
 local map = vim.api.nvim_set_keymap
 local opt = {noremap = true, silent = true }
 
+-----------------------useful keys----------------
+map("i",'<M-O>',"<Esc>O",opt) 
+map("i",'<M-o>',"<Esc>O",opt)
 ------------------------ window ------------------
 --分屏
 map("n", "sv", ":vsp<CR>", opt)
@@ -132,10 +135,6 @@ pluginKeys.cmp=function(cmp)
     end, { "i", "s" }),
   }
 end
-
-
-
-
 return pluginKeys
 
 
