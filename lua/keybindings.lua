@@ -3,7 +3,7 @@ local opt = {noremap = true, silent = true }
 
 -----------------------useful keys----------------
 map("i",'<M-O>',"<Esc>O",opt) 
-map("i",'<M-o>',"<Esc>O",opt)
+map("i",'<M-o>',"<Esc>o",opt)
 ------------------------ window ------------------
 --分屏
 map("n", "sv", ":vsp<CR>", opt)
@@ -35,6 +35,11 @@ map("n", "<leader>bcl", ":BufferLineCloseRight<CR>", opt)
 map("n", "<leader>bch", ":BufferLineCloseLeft<CR>", opt)
 map("n", "<leader>bc", ":BufferLinePickClose<CR>", opt)
 
+-----------------------Telescope---------------------
+--查找文件
+map("n","<C-p>",":Telescope find_files<CR>",opt)
+--全局查找
+map("n","<C-f>",":Telescope live_grep<CR>",opt)
 
 ----------------------------------------------------------------------------
 -------------------------------pluginKeys-----------------------------------
@@ -55,7 +60,7 @@ pluginKeys.nvimTreeList = {
   { key = "i", action = "toggle_ignored" }, -- Ignore (node_modules)
   { key = ".", action = "toggle_dotfiles" }, -- Hide (dotfiles)
 }
---------------------------------------------------------------------------------------
+----------------------------lsp--------------------------------------------
 pluginKeys.map_lsp = function(mapbuf)
   -- rename
   mapbuf("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>", opt)
@@ -135,7 +140,27 @@ pluginKeys.cmp=function(cmp)
     end, { "i", "s" }),
   }
 end
+
+-------------------------------Telescope---------------------------------------
+pluginKeys.TelescopeList = {
+  i = {
+    --上下移动
+    ["<C-j>"] = "move_selection_next",
+    ["<C-k>"] = "move_selection_previous",
+    ["<Down>"] = "move_selection_next",
+    ["<Up>"] = "move_selection_previous",
+    -- 历史记录
+    ["<C-n>"] = "cycle_history_next",
+    ["<C-p>"] = "cycle_history_prev",
+    -- 关闭窗口
+    ["<C-c>"] = "close",
+    -- 预览窗口上下滚动
+    ["<C-u>"] = "preview_scrolling_up",
+    ["<C-d>"] = "preview_scrolling_down",
+  },
+}
 return pluginKeys
+
 
 
 

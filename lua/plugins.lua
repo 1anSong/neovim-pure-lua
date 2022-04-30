@@ -34,6 +34,7 @@ packer.startup({
     ------
     use 'junegunn/fzf'
     use 'junegunn/fzf.vim'
+    use {'nvim-telescope/telescope.nvim',requires = 'nvim-lua/plenary.nvim'}
     -------
     ------- Editor Enhancement
     -------
