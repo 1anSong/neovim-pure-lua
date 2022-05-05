@@ -1,3 +1,4 @@
+require'autocmd'
 require'basic'
 require'keybindings'
 require'plugins'
