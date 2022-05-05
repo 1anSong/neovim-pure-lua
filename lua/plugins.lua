@@ -40,6 +40,7 @@ packer.startup({
     -------
     use 'tpope/vim-surround'
     use 'jiangmiao/auto-pairs'
+    use 'voldikss/vim-floaterm'
 
     --------------------------------------Plugin end----------------------------------------------
 end,

@@ -41,6 +41,10 @@ map("n","<C-p>",":Telescope find_files<CR>",opt)
 --全局查找
 map("n","<C-f>",":Telescope live_grep<CR>",opt)
 
+-------------------floaterm-------------------------
+map("n","<F7>",":FloatermNew<CR>",opt)
+map("n","<F8>",":FloatermKill<CR>",opt)
+
 ----------------------------------------------------------------------------
 -------------------------------pluginKeys-----------------------------------
 ----------------------------------------------------------------------------
@@ -145,18 +149,18 @@ end
 pluginKeys.TelescopeList = {
   i = {
     --上下移动
-    ["<C-j>"] = "move_selection_next",
-    ["<C-k>"] = "move_selection_previous",
-    ["<Down>"] = "move_selection_next",
+    --["<C-j>"] = "move_selection_next",
+    --["<C-k>"] = "move_selection_previous",
+    ["<Down>"] ="move_selection_next",
     ["<Up>"] = "move_selection_previous",
     -- 历史记录
-    ["<C-n>"] = "cycle_history_next",
-    ["<C-p>"] = "cycle_history_prev",
+    ["<M-n>"] = "cycle_history_next",
+    ["<M-p>"] = "cycle_history_prev",
     -- 关闭窗口
     ["<C-c>"] = "close",
     -- 预览窗口上下滚动
-    ["<C-u>"] = "preview_scrolling_up",
-    ["<C-d>"] = "preview_scrolling_down",
+    ["<M-u>"] = "preview_scrolling_up",
+    ["<M-d>"] = "preview_scrolling_down",
   },
 }
 return pluginKeys

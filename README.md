@@ -3,7 +3,7 @@
 ## Dependencies
 - [ccls](https://github.com/MaskRay/ccls)
 - [pyright](https://github.com/microsoft/pyright)
-- [lua-language-serverk](https://github.com/sumneko/lua-language-serverk)
+- [lua-language-server](https://github.com/sumneko/lua-language-server)
 - [fzf](https://github.com/junegunn/fzf#using-git)
 
 ## Notices
