@@ -41,6 +41,10 @@ packer.startup({
     use 'tpope/vim-surround'
     use 'jiangmiao/auto-pairs'
     use 'voldikss/vim-floaterm'
+    -------
+    ------- formatting
+    -------
+    use{'jose-elias-alvarez/null-ls.nvim',require = 'nvim-lua/plenary.nvim'}
 
     --------------------------------------Plugin end----------------------------------------------
 end,
