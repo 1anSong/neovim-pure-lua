@@ -10,6 +10,7 @@ null_ls.setup({
   debug =false,
   sources = {
     formatting.clang_format,
+    formatting.black,
   },
   on_attach=function(client)
     if client.resolved_capabilities.document_formatting then

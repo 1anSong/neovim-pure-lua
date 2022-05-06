@@ -1,10 +1,15 @@
 # Neovim configuration file
 
 ## Dependencies
+### for cmp
 - [ccls](https://github.com/MaskRay/ccls)
 - [pyright](https://github.com/microsoft/pyright)
 - [lua-language-server](https://github.com/sumneko/lua-language-server)
 - [fzf](https://github.com/junegunn/fzf#using-git)
+### for formatting 
+#### formatting python
+- [black](https://github.com/psf/black)
+#### formatting c/c++
 
 ## Notices
 - if your linux distribution is debian/ubuntu,please do **NOT**  install fzf  through package manager
