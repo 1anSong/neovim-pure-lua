@@ -11,7 +11,10 @@ require'plugin-config.lualine'
 require'plugin-config.dashboard'
 require'plugin-config.telescope'
 
+
 require'lsp.setup'
 require'lsp.cmp'
 require'lsp.ui'
 require'lsp.null-ls'
+
+require'process-mistake'

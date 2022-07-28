@@ -7,13 +7,13 @@
 - [lua-language-server](https://github.com/sumneko/lua-language-server)
 - [fzf](https://github.com/junegunn/fzf#using-git)
 ### for formatting 
+#### formatting c/c++
+- [clang-format](https://www.kernel.org/doc/html/latest/process/clang-format.html)
 #### formatting python
 - [black](https://github.com/psf/black)
-#### formatting c/c++
 
 ## Notices
 - if your linux distribution is debian/ubuntu,please do **NOT**  install fzf  through package manager
-
 
 ## File structure overview
 ```

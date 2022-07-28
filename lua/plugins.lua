@@ -20,16 +20,17 @@ packer.startup({
     ------
     ------lsp
     ------
-    use'neovim/nvim-lspconfig'
-    --use'williamboman/nvim-lsp-installer'
-    use"hrsh7th/nvim-cmp"
-    use"hrsh7th/vim-vsnip"
-    use"hrsh7th/cmp-vsnip"
-    use"hrsh7th/cmp-nvim-lsp" -- { name = nvim_lsp }
-    use"hrsh7th/cmp-buffer" -- { name = 'buffer' },
-    use"hrsh7th/cmp-path" -- { name = 'path' }
-    use"hrsh7th/cmp-cmdline" -- { name = 'cmdline' }
-    use"rafamadriz/friendly-snippets"
+      use'neovim/nvim-lspconfig'
+      --use'williamboman/nvim-lsp-installer'
+      use"hrsh7th/nvim-cmp"
+      use"hrsh7th/vim-vsnip"
+      use"hrsh7th/cmp-vsnip"
+      use"hrsh7th/cmp-nvim-lsp" -- { name = nvim_lsp }
+      use"hrsh7th/cmp-buffer" -- { name = 'buffer' },
+      use"hrsh7th/cmp-path" -- { name = 'path' }
+      use"hrsh7th/cmp-cmdline" -- { name = 'cmdline' }
+      use"rafamadriz/friendly-snippets"
+      -- use"neoclide/coc.nvim"
     ------
     ------ File navigation
     ------
